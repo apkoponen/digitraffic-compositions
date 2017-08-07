@@ -1,0 +1,62 @@
+@import 'styles/_colors';
+
+$timeline-color: #666;
+
+.TrainComposition {
+  display: flex;
+  align-items: stretch;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+}
+
+.TrainComposition__content {
+  padding: 10px;
+  font-size: 14px;
+  flex: 1;
+  background: #f6f6f6;
+}
+
+.TrainComposition__timeline {
+  z-index: 2;
+  flex: 0 0 30px;
+  margin-left: 3px;
+  border-left: 2px solid $timeline-color;
+  position: relative;
+
+  &:before, &:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    background: $timeline-color;
+    border: 2px solid #fff;
+  }
+
+  &:before {
+    top: -2px;
+  }
+
+  &:after {
+    bottom: -2px;
+  }
+}
+
+.TrainComposition__origin-station, .TrainComposition__destination-station {
+  position: absolute;
+  left: 3px;
+  color: #333;
+  font-size: 12px;
+}
+
+.TrainComposition__origin-station {
+  top: 0;
+}
+
+.TrainComposition__destination-station {
+  bottom: 0;
+}

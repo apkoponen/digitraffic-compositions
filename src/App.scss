@@ -1,0 +1,11 @@
+@import 'styles/_colors.scss';
+
+html {
+  color: $color-dark-gray;
+  background: $color-light-gray;
+  font-size: 14px;
+}
+
+.App__content {
+  position: relative;
+}

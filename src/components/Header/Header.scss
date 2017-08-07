@@ -1,0 +1,44 @@
+@import 'styles/_colors';
+@import 'styles/_shadows';
+
+$mobile-breakpoint: 640px;
+
+.Header {
+    width: 100%;
+    padding: 15px;
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: $box-shadow-normal;
+    z-index: 1;
+    position: relative;
+    line-height: 30px;
+}
+
+.Header__brand {
+    float: left;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.5);
+
+    @media(max-width: $mobile-breakpoint) {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+.Header__station-selector {
+    float: right;
+    color: #fff;
+
+    @media(max-width: $mobile-breakpoint) {
+        float: none;
+
+        select {
+            margin: 0 auto;
+        }
+    }
+}

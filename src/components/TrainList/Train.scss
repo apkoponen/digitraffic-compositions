@@ -1,0 +1,20 @@
+@import 'styles/_colors';
+
+.Train {
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.Train__status {
+  float: right;
+  vertical-align: middle;
+}
+
+.Train__composition-wrapper {
+  margin: -10px -10px 20px -10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

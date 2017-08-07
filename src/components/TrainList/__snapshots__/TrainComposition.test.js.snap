@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="TrainComposition"
+>
+  <div
+    className="TrainComposition__content"
+  >
+    <p>
+      <strong>
+        Locomotive:
+      </strong>
+       
+      Sr2 Electric
+    </p>
+    <p>
+      <strong>
+        Wagons:
+      </strong>
+       
+      Edfs, Edb, Edo (99 meters)
+    </p>
+    <p>
+      <strong>
+        Max speed:
+      </strong>
+       
+      160 km/h
+    </p>
+  </div>
+  <div
+    className="TrainComposition__timeline"
+  >
+    <div
+      className="TrainComposition__origin-station"
+    >
+      HKI
+    </div>
+    <div
+      className="TrainComposition__destination-station"
+    >
+      TKU
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders skeleton correctly 1`] = `
+<div
+  className="TrainComposition"
+>
+  <div
+    className="TrainComposition__content"
+  >
+    <p>
+      <strong>
+        Locomotive:
+      </strong>
+       
+      <span
+        className="Skeleton"
+        style={
+          Object {
+            "width": "50px",
+          }
+        }
+      />
+    </p>
+    <p>
+      <strong>
+        Wagons:
+      </strong>
+       
+      <span
+        className="Skeleton"
+        style={
+          Object {
+            "width": "100px",
+          }
+        }
+      />
+    </p>
+    <p>
+      <strong>
+        Max speed:
+      </strong>
+       
+      <span
+        className="Skeleton"
+        style={
+          Object {
+            "width": "50px",
+          }
+        }
+      />
+    </p>
+  </div>
+  <div
+    className="TrainComposition__timeline"
+  >
+    <div
+      className="TrainComposition__origin-station"
+    >
+      <span
+        className="Skeleton"
+        style={
+          Object {
+            "width": "25px",
+          }
+        }
+      />
+    </div>
+    <div
+      className="TrainComposition__destination-station"
+    >
+      <span
+        className="Skeleton"
+        style={
+          Object {
+            "width": "25px",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders running status correctly 1`] = `
+<div
+  className="TrainStatus running"
+>
+  <span
+    className="TrainStatus__dot"
+  />
+  Moving
+</div>
+`;
+
+exports[`renders stopped status correctly 1`] = `
+<div
+  className="TrainStatus stopped"
+>
+  <span
+    className="TrainStatus__dot"
+  />
+  Stopped
+</div>
+`;

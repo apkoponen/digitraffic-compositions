@@ -1,0 +1,20 @@
+@import 'styles/_colors';
+
+.Skeleton {
+  display: inline-block;
+  vertical-align: text-bottom;
+  height: 1.1em;
+  animation: skeleton 2.0s infinite linear;
+}
+
+@keyframes skeleton {
+  0% {
+    background: $color-light-gray
+  }
+  50% {
+    background: darken($color-light-gray, 5%);
+  }
+  100% {
+    background: $color-light-gray
+  }
+}

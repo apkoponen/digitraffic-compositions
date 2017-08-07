@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="Train"
+>
+  <div
+    className="Train__status"
+  >
+    <div
+      className="TrainStatus stopped"
+    >
+      <span
+        className="TrainStatus__dot"
+      />
+      Stopped
+    </div>
+  </div>
+  <h2>
+    IC
+    943
+     
+    HKI
+    -
+    TKU
+  </h2>
+  <div
+    className="Train__composition-wrapper"
+  >
+    <div
+      className="TrainComposition"
+    >
+      <div
+        className="TrainComposition__content"
+      >
+        <p>
+          <strong>
+            Locomotive:
+          </strong>
+           
+          Sr2 Electric
+        </p>
+        <p>
+          <strong>
+            Wagons:
+          </strong>
+           
+          Edfs, Edb, Edo (99 meters)
+        </p>
+        <p>
+          <strong>
+            Max speed:
+          </strong>
+           
+          160 km/h
+        </p>
+      </div>
+      <div
+        className="TrainComposition__timeline"
+      >
+        <div
+          className="TrainComposition__origin-station"
+        >
+          HKI
+        </div>
+        <div
+          className="TrainComposition__destination-station"
+        >
+          TKU
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

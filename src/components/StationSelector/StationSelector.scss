@@ -1,0 +1,12 @@
+@import 'styles/_colors';
+
+.StationSelector {
+  display: block;
+  width: 250px;
+  background: $color-light-gray;
+  font-size: 14px;
+  line-height: 1;
+  padding: 5px;
+  background-image: none;
+  border-radius: 2px;
+}
